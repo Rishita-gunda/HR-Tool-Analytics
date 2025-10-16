@@ -13,13 +13,26 @@ This project simplifies HR reporting through interactive visualizations, making 
 
 ### 📊 Data Model Design
 
-- *Fact Tables*:
-  - Sales Data
-  - Returns Data
+- *Fact Table*:
+  - people_fact
+    
 - *Dimension Tables*:
-  - Customer Lookup
-  - Product Lookup
-  - Calendar Lookup
+  
+  - department_dim
+
+  - job_level_dim
+
+  - term_dim
+
+  - manager_dim
+
+  - demographic_dim
+
+  - education_dim
+
+  - location_dim
+
+  - marital_dim
   
 
 ---
@@ -145,7 +158,8 @@ This dashboard transforms raw HR data into actionable intelligence, helping orga
 
 📂 Data Source: Excel / CSV HR dataset
 
-🧮 Techniques & Methods:
+---
+## 🧮 Techniques & Methods:
 
 Data Modeling (Star Schema)
 
@@ -153,7 +167,8 @@ DAX Calculations for KPIs and measures
 
 Interactive Visualization Design
 
-📊 Visual Types Used:
+---
+## 📊 Visual Types Used:
 
 Bar & Column Charts
 
